@@ -28,8 +28,8 @@ end
 
 def factorial(num)
   result = 1
-  (1..a).to_a.each do |x|
+  (1..num).to_a.each do |x|
     result *= x
   end
-  return result  
+  return result
 end
