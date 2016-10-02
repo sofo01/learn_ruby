@@ -25,3 +25,11 @@ end
 def power(num1, num2)
   num1 ** num2
 end
+
+def factorial(num)
+  result = 1
+  (1..a).to_a.each do |x|
+    result *= x
+  end
+  return result  
+end
