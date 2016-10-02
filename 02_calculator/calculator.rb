@@ -23,5 +23,5 @@ def multiply(arr)
 end
 
 def power(num1, num2)
-  num1 * num2
+  num1 ** num2
 end
