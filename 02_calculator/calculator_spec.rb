@@ -91,7 +91,7 @@ end
 
 describe "#power" do
   it "raises one number to the power of another number"
-    expect(power(2,2).to eq(4))
+    expect(power(2,2)).to eq(4)
 end
 
 # http://en.wikipedia.org/wiki/Factorial
