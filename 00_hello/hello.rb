@@ -1,2 +1,3 @@
-#write your code here
-puts "Hello!";
+def hello
+  "Hello"
+end
