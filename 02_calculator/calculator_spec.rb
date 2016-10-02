@@ -91,7 +91,7 @@ end
 
 describe "#power" do
   it "raises one number to the power of another number" do
-    expect(power(2,2)).to eq(8)
+    expect(power(2,2)).to eq(4)
   end
 end
 
