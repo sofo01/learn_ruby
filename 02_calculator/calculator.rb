@@ -14,6 +14,10 @@ def sum(arr)
   return sum
 end
 
-def multiply(num1, num2)
-  num1 * num2
+def multiply(arr)
+  sum = 0
+  arr.each do |num|
+    sum *= num
+  end
+  return sum
 end
