@@ -15,7 +15,7 @@ def sum(arr)
 end
 
 def multiply(arr)
-  sum = 0
+  sum = arr[0]
   arr.each do |num|
     sum *= num
   end
