@@ -1,9 +1,9 @@
 def echo(something)
-  say_something
+  something
 end
 
 def shout(something)
-  say_something.upcase
+  something.upcase
 end
 
 def repeat(something, times = 2)
